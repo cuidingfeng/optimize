@@ -2,7 +2,7 @@
 
 
 ## 常规优化
-- 雪碧图CSS sprite，字体图标
+- [雪碧图CSS sprite，字体图标](example1/index.md)
 - css、js合并打包、压缩
 - 按需加载
 - gzip
