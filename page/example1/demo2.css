@@ -1,0 +1,423 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+}
+
+.icon {
+    width: 200px;
+    line-height: 60px;
+}
+
+.icon::before {
+    content: "";
+    display: inline-table;
+    width: 36px;
+    height: 36px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    vertical-align: middle;
+}
+
+
+.icon1::before {
+        background-image: url(icon/1.png);
+    }
+
+    .icon2::before {
+        background-image: url(icon/2.png);
+    }
+
+    .icon3::before {
+        background-image: url(icon/3.png);
+    }
+
+    .icon4::before {
+        background-image: url(icon/4.png);
+    }
+
+    .icon5::before {
+        background-image: url(icon/5.png);
+    }
+
+    .icon6::before {
+        background-image: url(icon/6.png);
+    }
+
+    .icon7::before {
+        background-image: url(icon/7.png);
+    }
+
+    .icon8::before {
+        background-image: url(icon/8.png);
+    }
+
+    .icon9::before {
+        background-image: url(icon/9.png);
+    }
+
+    .icon10::before {
+        background-image: url(icon/10.png);
+    }
+
+    .icon11::before {
+        background-image: url(icon/11.png);
+    }
+
+    .icon12::before {
+        background-image: url(icon/12.png);
+    }
+
+    .icon13::before {
+        background-image: url(icon/13.png);
+    }
+
+    .icon14::before {
+        background-image: url(icon/14.png);
+    }
+
+    .icon15::before {
+        background-image: url(icon/15.png);
+    }
+
+    .icon16::before {
+        background-image: url(icon/16.png);
+    }
+
+    .icon17::before {
+        background-image: url(icon/17.png);
+    }
+
+    .icon18::before {
+        background-image: url(icon/18.png);
+    }
+
+    .icon19::before {
+        background-image: url(icon/19.png);
+    }
+
+    .icon20::before {
+        background-image: url(icon/20.png);
+    }
+
+    .icon21::before {
+        background-image: url(icon/21.png);
+    }
+
+    .icon22::before {
+        background-image: url(icon/22.png);
+    }
+
+    .icon23::before {
+        background-image: url(icon/23.png);
+    }
+
+    .icon24::before {
+        background-image: url(icon/24.png);
+    }
+
+    .icon25::before {
+        background-image: url(icon/25.png);
+    }
+
+    .icon26::before {
+        background-image: url(icon/26.png);
+    }
+
+    .icon27::before {
+        background-image: url(icon/27.png);
+    }
+
+    .icon28::before {
+        background-image: url(icon/28.png);
+    }
+
+    .icon29::before {
+        background-image: url(icon/29.png);
+    }
+
+    .icon30::before {
+        background-image: url(icon/30.png);
+    }
+
+    .icon31::before {
+        background-image: url(icon/31.png);
+    }
+
+    .icon32::before {
+        background-image: url(icon/32.png);
+    }
+
+    .icon33::before {
+        background-image: url(icon/33.png);
+    }
+
+    .icon34::before {
+        background-image: url(icon/34.png);
+    }
+
+    .icon35::before {
+        background-image: url(icon/35.png);
+    }
+
+    .icon36::before {
+        background-image: url(icon/36.png);
+    }
+
+    .icon37::before {
+        background-image: url(icon/37.png);
+    }
+
+    .icon38::before {
+        background-image: url(icon/38.png);
+    }
+
+    .icon39::before {
+        background-image: url(icon/39.png);
+    }
+
+    .icon40::before {
+        background-image: url(icon/40.png);
+    }
+
+    .icon41::before {
+        background-image: url(icon/41.png);
+    }
+
+    .icon42::before {
+        background-image: url(icon/42.png);
+    }
+
+    .icon43::before {
+        background-image: url(icon/43.png);
+    }
+
+    .icon44::before {
+        background-image: url(icon/44.png);
+    }
+
+    .icon45::before {
+        background-image: url(icon/45.png);
+    }
+
+    .icon46::before {
+        background-image: url(icon/46.png);
+    }
+
+    .icon47::before {
+        background-image: url(icon/47.png);
+    }
+
+    .icon48::before {
+        background-image: url(icon/48.png);
+    }
+
+    .icon49::before {
+        background-image: url(icon/49.png);
+    }
+
+    .icon50::before {
+        background-image: url(icon/50.png);
+    }
+
+    .icon51::before {
+        background-image: url(icon/51.png);
+    }
+
+    .icon52::before {
+        background-image: url(icon/52.png);
+    }
+
+    .icon53::before {
+        background-image: url(icon/53.png);
+    }
+
+    .icon54::before {
+        background-image: url(icon/54.png);
+    }
+
+    .icon55::before {
+        background-image: url(icon/55.png);
+    }
+
+    .icon56::before {
+        background-image: url(icon/56.png);
+    }
+
+    .icon57::before {
+        background-image: url(icon/57.png);
+    }
+
+    .icon58::before {
+        background-image: url(icon/58.png);
+    }
+
+    .icon59::before {
+        background-image: url(icon/59.png);
+    }
+
+    .icon60::before {
+        background-image: url(icon/60.png);
+    }
+
+    .icon61::before {
+        background-image: url(icon/61.png);
+    }
+
+    .icon62::before {
+        background-image: url(icon/62.png);
+    }
+
+    .icon63::before {
+        background-image: url(icon/63.png);
+    }
+
+    .icon64::before {
+        background-image: url(icon/64.png);
+    }
+
+    .icon65::before {
+        background-image: url(icon/65.png);
+    }
+
+    .icon66::before {
+        background-image: url(icon/66.png);
+    }
+
+    .icon67::before {
+        background-image: url(icon/67.png);
+    }
+
+    .icon68::before {
+        background-image: url(icon/68.png);
+    }
+
+    .icon69::before {
+        background-image: url(icon/69.png);
+    }
+
+    .icon70::before {
+        background-image: url(icon/70.png);
+    }
+
+    .icon71::before {
+        background-image: url(icon/71.png);
+    }
+
+    .icon72::before {
+        background-image: url(icon/72.png);
+    }
+
+    .icon73::before {
+        background-image: url(icon/73.png);
+    }
+
+    .icon74::before {
+        background-image: url(icon/74.png);
+    }
+
+    .icon75::before {
+        background-image: url(icon/75.png);
+    }
+
+    .icon76::before {
+        background-image: url(icon/76.png);
+    }
+
+    .icon77::before {
+        background-image: url(icon/77.png);
+    }
+
+    .icon78::before {
+        background-image: url(icon/78.png);
+    }
+
+    .icon79::before {
+        background-image: url(icon/79.png);
+    }
+
+    .icon80::before {
+        background-image: url(icon/80.png);
+    }
+
+    .icon81::before {
+        background-image: url(icon/81.png);
+    }
+
+    .icon82::before {
+        background-image: url(icon/82.png);
+    }
+
+    .icon83::before {
+        background-image: url(icon/83.png);
+    }
+
+    .icon84::before {
+        background-image: url(icon/84.png);
+    }
+
+    .icon85::before {
+        background-image: url(icon/85.png);
+    }
+
+    .icon86::before {
+        background-image: url(icon/86.png);
+    }
+
+    .icon87::before {
+        background-image: url(icon/87.png);
+    }
+
+    .icon88::before {
+        background-image: url(icon/88.png);
+    }
+
+    .icon89::before {
+        background-image: url(icon/89.png);
+    }
+
+    .icon90::before {
+        background-image: url(icon/90.png);
+    }
+
+    .icon91::before {
+        background-image: url(icon/91.png);
+    }
+
+    .icon92::before {
+        background-image: url(icon/92.png);
+    }
+
+    .icon93::before {
+        background-image: url(icon/93.png);
+    }
+
+    .icon94::before {
+        background-image: url(icon/94.png);
+    }
+
+    .icon95::before {
+        background-image: url(icon/95.png);
+    }
+
+    .icon96::before {
+        background-image: url(icon/96.png);
+    }
+
+    .icon97::before {
+        background-image: url(icon/97.png);
+    }
+
+    .icon98::before {
+        background-image: url(icon/98.png);
+    }
+
+    .icon99::before {
+        background-image: url(icon/99.png);
+    }
+
+    .icon100::before {
+        background-image: url(icon/100.png);
+    }

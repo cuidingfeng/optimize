@@ -1,0 +1,623 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+}
+
+.icon {
+    width: 200px;
+    line-height: 60px;
+}
+
+.icon::before {
+    content: "";
+    display: inline-table;
+    width: 36px;
+    height: 36px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    vertical-align: middle;
+}
+
+
+.icon1::before {
+        background-image: url(icon/sprite.png);
+        background-position: -36px 0px;
+        background-size: 360px 360px;
+    }
+
+    .icon2::before {
+        background-image: url(icon/sprite.png);
+        background-position: -252px -36px;
+        background-size: 360px 360px;
+    }
+
+    .icon3::before {
+        background-image: url(icon/sprite.png);
+        background-position: 0px -36px;
+        background-size: 360px 360px;
+    }
+
+    .icon4::before {
+        background-image: url(icon/sprite.png);
+        background-position: -36px -36px;
+        background-size: 360px 360px;
+    }
+
+    .icon5::before {
+        background-image: url(icon/sprite.png);
+        background-position: -72px 0px;
+        background-size: 360px 360px;
+    }
+
+    .icon6::before {
+        background-image: url(icon/sprite.png);
+        background-position: -72px -36px;
+        background-size: 360px 360px;
+    }
+
+    .icon7::before {
+        background-image: url(icon/sprite.png);
+        background-position: 0px -72px;
+        background-size: 360px 360px;
+    }
+
+    .icon8::before {
+        background-image: url(icon/sprite.png);
+        background-position: -36px -72px;
+        background-size: 360px 360px;
+    }
+
+    .icon9::before {
+        background-image: url(icon/sprite.png);
+        background-position: -72px -72px;
+        background-size: 360px 360px;
+    }
+
+    .icon10::before {
+        background-image: url(icon/sprite.png);
+        background-position: -108px 0px;
+        background-size: 360px 360px;
+    }
+
+    .icon11::before {
+        background-image: url(icon/sprite.png);
+        background-position: -108px -36px;
+        background-size: 360px 360px;
+    }
+
+    .icon12::before {
+        background-image: url(icon/sprite.png);
+        background-position: -108px -72px;
+        background-size: 360px 360px;
+    }
+
+    .icon13::before {
+        background-image: url(icon/sprite.png);
+        background-position: 0px -108px;
+        background-size: 360px 360px;
+    }
+
+    .icon14::before {
+        background-image: url(icon/sprite.png);
+        background-position: -36px -108px;
+        background-size: 360px 360px;
+    }
+
+    .icon15::before {
+        background-image: url(icon/sprite.png);
+        background-position: -72px -108px;
+        background-size: 360px 360px;
+    }
+
+    .icon16::before {
+        background-image: url(icon/sprite.png);
+        background-position: -108px -108px;
+        background-size: 360px 360px;
+    }
+
+    .icon17::before {
+        background-image: url(icon/sprite.png);
+        background-position: -144px 0px;
+        background-size: 360px 360px;
+    }
+
+    .icon18::before {
+        background-image: url(icon/sprite.png);
+        background-position: -144px -36px;
+        background-size: 360px 360px;
+    }
+
+    .icon19::before {
+        background-image: url(icon/sprite.png);
+        background-position: -144px -72px;
+        background-size: 360px 360px;
+    }
+
+    .icon20::before {
+        background-image: url(icon/sprite.png);
+        background-position: -144px -108px;
+        background-size: 360px 360px;
+    }
+
+    .icon21::before {
+        background-image: url(icon/sprite.png);
+        background-position: 0px -144px;
+        background-size: 360px 360px;
+    }
+
+    .icon22::before {
+        background-image: url(icon/sprite.png);
+        background-position: -36px -144px;
+        background-size: 360px 360px;
+    }
+
+    .icon23::before {
+        background-image: url(icon/sprite.png);
+        background-position: -72px -144px;
+        background-size: 360px 360px;
+    }
+
+    .icon24::before {
+        background-image: url(icon/sprite.png);
+        background-position: -108px -144px;
+        background-size: 360px 360px;
+    }
+
+    .icon25::before {
+        background-image: url(icon/sprite.png);
+        background-position: -144px -144px;
+        background-size: 360px 360px;
+    }
+
+    .icon26::before {
+        background-image: url(icon/sprite.png);
+        background-position: -180px 0px;
+        background-size: 360px 360px;
+    }
+
+    .icon27::before {
+        background-image: url(icon/sprite.png);
+        background-position: -180px -36px;
+        background-size: 360px 360px;
+    }
+
+    .icon28::before {
+        background-image: url(icon/sprite.png);
+        background-position: -180px -72px;
+        background-size: 360px 360px;
+    }
+
+    .icon29::before {
+        background-image: url(icon/sprite.png);
+        background-position: -180px -108px;
+        background-size: 360px 360px;
+    }
+
+    .icon30::before {
+        background-image: url(icon/sprite.png);
+        background-position: -180px -144px;
+        background-size: 360px 360px;
+    }
+
+    .icon31::before {
+        background-image: url(icon/sprite.png);
+        background-position: 0px -180px;
+        background-size: 360px 360px;
+    }
+
+    .icon32::before {
+        background-image: url(icon/sprite.png);
+        background-position: -36px -180px;
+        background-size: 360px 360px;
+    }
+
+    .icon33::before {
+        background-image: url(icon/sprite.png);
+        background-position: -72px -180px;
+        background-size: 360px 360px;
+    }
+
+    .icon34::before {
+        background-image: url(icon/sprite.png);
+        background-position: -108px -180px;
+        background-size: 360px 360px;
+    }
+
+    .icon35::before {
+        background-image: url(icon/sprite.png);
+        background-position: -144px -180px;
+        background-size: 360px 360px;
+    }
+
+    .icon36::before {
+        background-image: url(icon/sprite.png);
+        background-position: -180px -180px;
+        background-size: 360px 360px;
+    }
+
+    .icon37::before {
+        background-image: url(icon/sprite.png);
+        background-position: -216px 0px;
+        background-size: 360px 360px;
+    }
+
+    .icon38::before {
+        background-image: url(icon/sprite.png);
+        background-position: -216px -36px;
+        background-size: 360px 360px;
+    }
+
+    .icon39::before {
+        background-image: url(icon/sprite.png);
+        background-position: -216px -72px;
+        background-size: 360px 360px;
+    }
+
+    .icon40::before {
+        background-image: url(icon/sprite.png);
+        background-position: -216px -108px;
+        background-size: 360px 360px;
+    }
+
+    .icon41::before {
+        background-image: url(icon/sprite.png);
+        background-position: -216px -144px;
+        background-size: 360px 360px;
+    }
+
+    .icon42::before {
+        background-image: url(icon/sprite.png);
+        background-position: -216px -180px;
+        background-size: 360px 360px;
+    }
+
+    .icon43::before {
+        background-image: url(icon/sprite.png);
+        background-position: 0px -216px;
+        background-size: 360px 360px;
+    }
+
+    .icon44::before {
+        background-image: url(icon/sprite.png);
+        background-position: -36px -216px;
+        background-size: 360px 360px;
+    }
+
+    .icon45::before {
+        background-image: url(icon/sprite.png);
+        background-position: -72px -216px;
+        background-size: 360px 360px;
+    }
+
+    .icon46::before {
+        background-image: url(icon/sprite.png);
+        background-position: -108px -216px;
+        background-size: 360px 360px;
+    }
+
+    .icon47::before {
+        background-image: url(icon/sprite.png);
+        background-position: -144px -216px;
+        background-size: 360px 360px;
+    }
+
+    .icon48::before {
+        background-image: url(icon/sprite.png);
+        background-position: -180px -216px;
+        background-size: 360px 360px;
+    }
+
+    .icon49::before {
+        background-image: url(icon/sprite.png);
+        background-position: -216px -216px;
+        background-size: 360px 360px;
+    }
+
+    .icon50::before {
+        background-image: url(icon/sprite.png);
+        background-position: -252px 0px;
+        background-size: 360px 360px;
+    }
+
+    .icon51::before {
+        background-image: url(icon/sprite.png);
+        background-position: 0px 0px;
+        background-size: 360px 360px;
+    }
+
+    .icon52::before {
+        background-image: url(icon/sprite.png);
+        background-position: -252px -72px;
+        background-size: 360px 360px;
+    }
+
+    .icon53::before {
+        background-image: url(icon/sprite.png);
+        background-position: -252px -108px;
+        background-size: 360px 360px;
+    }
+
+    .icon54::before {
+        background-image: url(icon/sprite.png);
+        background-position: -252px -144px;
+        background-size: 360px 360px;
+    }
+
+    .icon55::before {
+        background-image: url(icon/sprite.png);
+        background-position: -252px -180px;
+        background-size: 360px 360px;
+    }
+
+    .icon56::before {
+        background-image: url(icon/sprite.png);
+        background-position: -252px -216px;
+        background-size: 360px 360px;
+    }
+
+    .icon57::before {
+        background-image: url(icon/sprite.png);
+        background-position: 0px -252px;
+        background-size: 360px 360px;
+    }
+
+    .icon58::before {
+        background-image: url(icon/sprite.png);
+        background-position: -36px -252px;
+        background-size: 360px 360px;
+    }
+
+    .icon59::before {
+        background-image: url(icon/sprite.png);
+        background-position: -72px -252px;
+        background-size: 360px 360px;
+    }
+
+    .icon60::before {
+        background-image: url(icon/sprite.png);
+        background-position: -108px -252px;
+        background-size: 360px 360px;
+    }
+
+    .icon61::before {
+        background-image: url(icon/sprite.png);
+        background-position: -144px -252px;
+        background-size: 360px 360px;
+    }
+
+    .icon62::before {
+        background-image: url(icon/sprite.png);
+        background-position: -180px -252px;
+        background-size: 360px 360px;
+    }
+
+    .icon63::before {
+        background-image: url(icon/sprite.png);
+        background-position: -216px -252px;
+        background-size: 360px 360px;
+    }
+
+    .icon64::before {
+        background-image: url(icon/sprite.png);
+        background-position: -252px -252px;
+        background-size: 360px 360px;
+    }
+
+    .icon65::before {
+        background-image: url(icon/sprite.png);
+        background-position: -288px 0px;
+        background-size: 360px 360px;
+    }
+
+    .icon66::before {
+        background-image: url(icon/sprite.png);
+        background-position: -288px -36px;
+        background-size: 360px 360px;
+    }
+
+    .icon67::before {
+        background-image: url(icon/sprite.png);
+        background-position: -288px -72px;
+        background-size: 360px 360px;
+    }
+
+    .icon68::before {
+        background-image: url(icon/sprite.png);
+        background-position: -288px -108px;
+        background-size: 360px 360px;
+    }
+
+    .icon69::before {
+        background-image: url(icon/sprite.png);
+        background-position: -288px -144px;
+        background-size: 360px 360px;
+    }
+
+    .icon70::before {
+        background-image: url(icon/sprite.png);
+        background-position: -288px -180px;
+        background-size: 360px 360px;
+    }
+
+    .icon71::before {
+        background-image: url(icon/sprite.png);
+        background-position: -288px -216px;
+        background-size: 360px 360px;
+    }
+
+    .icon72::before {
+        background-image: url(icon/sprite.png);
+        background-position: -288px -252px;
+        background-size: 360px 360px;
+    }
+
+    .icon73::before {
+        background-image: url(icon/sprite.png);
+        background-position: 0px -288px;
+        background-size: 360px 360px;
+    }
+
+    .icon74::before {
+        background-image: url(icon/sprite.png);
+        background-position: -36px -288px;
+        background-size: 360px 360px;
+    }
+
+    .icon75::before {
+        background-image: url(icon/sprite.png);
+        background-position: -72px -288px;
+        background-size: 360px 360px;
+    }
+
+    .icon76::before {
+        background-image: url(icon/sprite.png);
+        background-position: -108px -288px;
+        background-size: 360px 360px;
+    }
+
+    .icon77::before {
+        background-image: url(icon/sprite.png);
+        background-position: -144px -288px;
+        background-size: 360px 360px;
+    }
+
+    .icon78::before {
+        background-image: url(icon/sprite.png);
+        background-position: -180px -288px;
+        background-size: 360px 360px;
+    }
+
+    .icon79::before {
+        background-image: url(icon/sprite.png);
+        background-position: -216px -288px;
+        background-size: 360px 360px;
+    }
+
+    .icon80::before {
+        background-image: url(icon/sprite.png);
+        background-position: -252px -288px;
+        background-size: 360px 360px;
+    }
+
+    .icon81::before {
+        background-image: url(icon/sprite.png);
+        background-position: -288px -288px;
+        background-size: 360px 360px;
+    }
+
+    .icon82::before {
+        background-image: url(icon/sprite.png);
+        background-position: -324px 0px;
+        background-size: 360px 360px;
+    }
+
+    .icon83::before {
+        background-image: url(icon/sprite.png);
+        background-position: -324px -36px;
+        background-size: 360px 360px;
+    }
+
+    .icon84::before {
+        background-image: url(icon/sprite.png);
+        background-position: -324px -72px;
+        background-size: 360px 360px;
+    }
+
+    .icon85::before {
+        background-image: url(icon/sprite.png);
+        background-position: -324px -108px;
+        background-size: 360px 360px;
+    }
+
+    .icon86::before {
+        background-image: url(icon/sprite.png);
+        background-position: -324px -144px;
+        background-size: 360px 360px;
+    }
+
+    .icon87::before {
+        background-image: url(icon/sprite.png);
+        background-position: -324px -180px;
+        background-size: 360px 360px;
+    }
+
+    .icon88::before {
+        background-image: url(icon/sprite.png);
+        background-position: -324px -216px;
+        background-size: 360px 360px;
+    }
+
+    .icon89::before {
+        background-image: url(icon/sprite.png);
+        background-position: -324px -252px;
+        background-size: 360px 360px;
+    }
+
+    .icon90::before {
+        background-image: url(icon/sprite.png);
+        background-position: -324px -288px;
+        background-size: 360px 360px;
+    }
+
+    .icon91::before {
+        background-image: url(icon/sprite.png);
+        background-position: 0px -324px;
+        background-size: 360px 360px;
+    }
+
+    .icon92::before {
+        background-image: url(icon/sprite.png);
+        background-position: -36px -324px;
+        background-size: 360px 360px;
+    }
+
+    .icon93::before {
+        background-image: url(icon/sprite.png);
+        background-position: -72px -324px;
+        background-size: 360px 360px;
+    }
+
+    .icon94::before {
+        background-image: url(icon/sprite.png);
+        background-position: -108px -324px;
+        background-size: 360px 360px;
+    }
+
+    .icon95::before {
+        background-image: url(icon/sprite.png);
+        background-position: -144px -324px;
+        background-size: 360px 360px;
+    }
+
+    .icon96::before {
+        background-image: url(icon/sprite.png);
+        background-position: -180px -324px;
+        background-size: 360px 360px;
+    }
+
+    .icon97::before {
+        background-image: url(icon/sprite.png);
+        background-position: -216px -324px;
+        background-size: 360px 360px;
+    }
+
+    .icon98::before {
+        background-image: url(icon/sprite.png);
+        background-position: -252px -324px;
+        background-size: 360px 360px;
+    }
+
+    .icon99::before {
+        background-image: url(icon/sprite.png);
+        background-position: -288px -324px;
+        background-size: 360px 360px;
+    }
+
+    .icon100::before {
+        background-image: url(icon/sprite.png);
+        background-position: -324px -324px;
+        background-size: 360px 360px;
+    }

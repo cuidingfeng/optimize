@@ -1,0 +1,26 @@
+{
+  "name": "optimize",
+  "version": "1.0.0",
+  "description": "前端性能优化",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://cuidingfeng@github.com/cuidingfeng/optimize.git"
+  },
+  "author": "cuidingfeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuidingfeng/optimize/issues"
+  },
+  "homepage": "https://github.com/cuidingfeng/optimize#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "postcss": "^7.0.17",
+    "postcss-sprites-ratio": "^4.2.2"
+  }
+}
