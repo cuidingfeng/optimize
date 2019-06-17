@@ -37,7 +37,49 @@ npm start
 
 ### 实例一：普通未打包css、js的页面
 
-
 [查看源码](demo1.html) -
 [本地预览](http://127.0.0.1:8083/page/example2/demo1.html)
 
+这个例子我们使用require.js做模块化js管理，在页面上展示几个Dom模块。
+
+一共准备了从A到G共7个模块，每个对应一个AMD规范的js模块，还有一个公用的，用来给dom插入节点的js模块append.js，还有一个入口模块main.js，这加起来是9个js文件，还有一个r.js是require.js框架本身的文件。
+
+再看css，每个dom模块也有一个对应的从A到G的css文件，另外有一个style1.css的共用css文件，共8个。
+
+这是纯手写的静态页，不需要工具，只是用到了一个Js的框架，所以拿源码直接访问就可以
+
+![demo1.html截图](img/demo1.png)
+
+可以看到，页面上一共加载了19个文件，其中10个js，8个css，一个html，共1.1MB，173ms时间。这1.1MB的大小，主要是require.js框架的。除了r.js，其它文件的大小我算了共8K，其中html共1.1KB，css共2.8KB，JS共4.1KB。
+
+
+### 实例二：用Webpack打包合并页面中的css、js
+
+[查看源码](demo2.html) -
+[本地预览](http://127.0.0.1:8083/page/example2/demo2.html)
+
+在Demo1的基础上，我们来做个优化，用Webpack工具把页面上加载的这些js和css文件打包合并成一个文件。
+
+这里有个重要的概念有必要说明一下，大家应该知道，在require.js等js模块化框架中，是用define和require来定义和使用模块，其中框架会自动管理依赖关系等，而框架的这些工作，都是在浏览器里运行的，所以我们看到上面r.js那么大。
+
+而我们现在使用Webpack工具，它是一个在开发者本地运行的工具，在我们写完代码要上线前，我们需要先在本地用webpack把源码处理一遍，然后自动生成新的代码，这些生成的代码就是用来上线的代码。在我们这个例子中，在webpack编译源码的过程中，它已经把各个模块之间的关系处理完毕的，这部分工作，本来是应该require.js在浏览器要执行的。所以，webpack处理的代码，在浏览器运行时，已经不需要require.js框架了，相当于我们在上线前，已经对代码做了一次预编译，真正在浏览器运行时，只需要执行必要的业务逻辑。这样我们最终在浏览器，加载的代码少了，执行的代码也少了。其实上，webpack同时在很多地方对我们的代码做了执行效率的优化。
+
+现在你应该已经感受到了webpack带来的好处，让我们看一下实际效果。
+
+![demo2.html截图](img/demo2.png)
+
+可以看到，现在一共就加载了两个文件，一共html，一个js。总大小34.5KB，用时13ms，效果非常明显。
+
+这里再单独说明一下demo2中webpack的使用。
+
+首先因为我们最终加载的是webpack打包后的文件，所以demo2.html中，我们就不加载之前的那些js和css了，只加载一个打包后的文件dist/bundle.js，这个文件的路径和文件名，是我们在webpack的配置文件webpack.config.js中指定的。css/all.js这个文件，是用来把所有相关的css打包进来的一个入口文件。
+
+另外因为webpack是基于npm安装的工具，我在example2目录下建了个package.json，就是专门给这个例子用的，查看这个例子前，需要在example2目录下安装一下npm的依赖模块，执行下面的命令
+```
+cd page/example2
+npm i
+```
+要执行webpack的打包工作，执行下面的命令
+```
+npm run build
+```
