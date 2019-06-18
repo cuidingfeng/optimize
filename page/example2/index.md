@@ -68,7 +68,7 @@ npm start
 
 ![demo2.html截图](img/demo2.png)
 
-可以看到，现在一共就加载了两个文件，一个html，一个js。总大小34.5KB，用时13ms，效果非常明显。
+可以看到，现在一共就加载了两个文件，一个html，一个js。总大小11.3KB，用时13ms，效果非常明显。
 
 这里再单独说明一下demo2中webpack的使用。
 

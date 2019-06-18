@@ -4,7 +4,7 @@
 ## 常规优化
 - [雪碧图CSS sprite、字体图标](example1/index.md)
 - [css、js合并打包、压缩](example2/index.md)
-- 按需加载
+- [按需加载](example3/index.md)
 - 服务器压缩传输
 - 加载合适尺寸的图片，不要加载大图让浏览器缩小
 - base64加载重要的小图标
