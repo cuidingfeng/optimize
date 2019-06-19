@@ -1,0 +1,31 @@
+.head3{
+    display: flex;
+}
+.img3{
+    width: 200px;
+}
+.img3 img{
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+}
+.content3{
+    flex: 1;
+}
+.h1c{
+    font-size: 18px;
+}
+.sub3{
+    font-size: 16px;
+    color: #aaa;
+    line-height: 40px;
+}
+.txt3{
+    font-size: 14px;
+    line-height: 22px;
+}
+.h2c{
+    font-size: 16px;
+    border-top: green solid 3px;
+    padding-top: 20px;
+}

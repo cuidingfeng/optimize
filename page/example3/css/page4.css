@@ -1,0 +1,31 @@
+.head4{
+    display: flex;
+}
+.img4{
+    width: 200px;
+}
+.img4 img{
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+}
+.content4{
+    flex: 1;
+}
+.h1d{
+    font-size: 18px;
+}
+.sub4{
+    font-size: 16px;
+    color: #aaa;
+    line-height: 40px;
+}
+.txt4{
+    font-size: 14px;
+    line-height: 22px;
+}
+.h2d{
+    font-size: 16px;
+    border-top: green solid 3px;
+    padding-top: 20px;
+}

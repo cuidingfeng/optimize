@@ -1,0 +1,31 @@
+.head2{
+    display: flex;
+}
+.img2{
+    width: 200px;
+}
+.img2 img{
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+}
+.content2{
+    flex: 1;
+}
+.h1b{
+    font-size: 18px;
+}
+.sub2{
+    font-size: 16px;
+    color: #aaa;
+    line-height: 40px;
+}
+.txt2{
+    font-size: 14px;
+    line-height: 22px;
+}
+.h2b{
+    font-size: 16px;
+    border-top: green solid 3px;
+    padding-top: 20px;
+}
