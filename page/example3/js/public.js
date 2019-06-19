@@ -21,7 +21,13 @@
         }).then((text) => {
             page.innerHTML = text;
             page.classList.remove("loading");
+            getscript(`js/page${selectIndex + 1}.js`);
         });
+    };
+    const getscript = (url) => {
+        const script = document.createElement("script");
+        script.src = url;
+        document.head.appendChild(script);
     };
     links.forEach((link, i) => {
         link.onclick = function () {
